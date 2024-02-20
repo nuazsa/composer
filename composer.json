@@ -1,0 +1,17 @@
+{
+    "name": "nuazsa/composer",
+    "description": "Learn Composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "nuazsa",
+            "email": "nurazissaputra@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "nuazsa\\" : "src/"
+        }
+    },
+    "require": {}
+}
