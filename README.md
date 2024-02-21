@@ -1,6 +1,14 @@
 # HOW TO USING COMPOSER 
 Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
 
+- [Installation](#installation---windows)
+- [Configuration](#configuration)
+- [Autoload](#autoload)
+- [Traying](#trayig)
+  * [Simple](#simple-traying)
+  * [With Dependency](#traying-with-external-dependecy)
+
+
 ## Installation - Windows
 https://getcomposer.org/Composer-Setup.exe
 
@@ -40,7 +48,9 @@ require __DIR__ . 'vendor/autoload.php';
 Don't forger to Restart Autoloader
 
 
-## --- Trying ---
+## Trying
+
+### Simple Traying
 Create -> src/Data/Person.php
 
 ``` php 
@@ -81,7 +91,7 @@ output -> powershell
 Hello Albert, how are you? I'm Azis.
 ```
 
-## --- Traying External Dependecy ---
+### Traying With External Dependecy
 Added -> composer.json
 ``` json 
 {
