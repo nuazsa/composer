@@ -1,0 +1,19 @@
+{
+    "name": "nuazsa/project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "nuazsa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nuazsa",
+            "email": "nurazissaputra@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "3.0.*",
+        "nuazsa/library-test" : "2.0.0"
+    }
+}

@@ -7,7 +7,7 @@ Composer is a tool for dependency management in PHP. It allows you to declare th
 - [Traying](#trayig)
   * [Simple](#simple-traying)
   * [With Dependency](#traying-with-external-dependecy)
-
+- [Next Step](#next)
 
 ## Installation - Windows
 https://getcomposer.org/Composer-Setup.exe
@@ -96,7 +96,7 @@ Added -> composer.json
 ``` json 
 {
     "require": {
-        "monolog/monolog": "2.0.*"
+        "monolog/monolog": "3.0.*"
     }
 }
 ```
@@ -127,3 +127,14 @@ Output -> application.log
 [2024-02-20T10:02:48.062563+00:00] nuazsa.INFO: Hello World [] []
 [2024-02-20T10:02:48.071377+00:00] nuazsa.INFO: The frist using composer [] []
 ```
+
+## Next Step
+- Create library
+    - type library
+    - ignore vendor
+- Upload Repository
+    - add tag realese
+- Download Repository
+    - composer update
+- Update Version/tag
+- Submit on Packagist
